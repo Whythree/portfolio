@@ -1,0 +1,59 @@
+@media (min-width: 39.5rem) {
+
+    main, header, footer {
+        padding: 2rem 4rem;
+    }
+
+    .nav-desktop {
+        gap: 2rem;
+    }
+
+    .hero-visual p {
+        font-size: 8rem;
+    }
+
+    .skills-container {
+        flex-direction: row;
+    }
+
+    .resume-container {
+        gap: 2rem;
+    }
+
+
+    .contact-card {
+
+        .contact-card-content {
+            padding: 2rem 1rem 2rem 3rem;
+        }
+
+        .image-container {
+            display: block;
+            flex-basis: 200px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 53rem) {
+    body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    header {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    footer {
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}
