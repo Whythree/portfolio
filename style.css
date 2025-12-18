@@ -66,6 +66,11 @@ main, header, footer {
     padding: 2rem 2rem;
 }
 
+main {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
 h1 {
     color: var(--color-primary);
     line-height: 1;
@@ -122,7 +127,7 @@ a {
 }
 
 .hero {
-    /*padding-top: 1rem;*/
+    padding-top: 1rem;
     padding-bottom: 4rem;
 
     .introduction {
@@ -199,7 +204,7 @@ a {
 }
 
 .material-icons {
-    font-family: 'Icons';
+    font-family: 'Icons', sans-serif;
     font-style: normal;
     font-size: 2rem; /* Preferred icon size */
     font-weight: 500;
@@ -232,7 +237,7 @@ a {
 }
 
 .portfolio-card {
-    box-shadow: 0px 10px 15px -3px var(--color-accent-subtle);
+    box-shadow: 0 10px 15px -3px var(--color-accent-subtle);
     border-radius: 1rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -255,7 +260,7 @@ a {
 
 .portfolio-card:hover {
     scale: 1.02;
-    box-shadow: 0px 15px 20px -3px var(--color-accent-subtle);
+    box-shadow: 0 15px 20px -3px var(--color-accent-subtle);
 
     h3 {
         color: var(--color-accent);
